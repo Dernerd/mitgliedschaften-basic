@@ -13091,7 +13091,7 @@ msgid "Membership 2 Pro"
 msgstr ""
 
 #. Plugin URI of the plugin/theme
-msgid "https://premium.wpmudev.org/project/membership/"
+msgid "https://n3rds.work/docs/ps-mitgliedschaften-plugin-handbuch/"
 msgstr ""
 
 #. Description of the plugin/theme
