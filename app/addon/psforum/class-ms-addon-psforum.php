@@ -76,15 +76,15 @@ class MS_Addon_Psforum extends MS_Addon {
 	 */
 	public function register( $list ) {
 		$list[ self::ID ] = (object) array(
-			'name' 			=> __( 'PSForum Integration', 'membership2' ),
-			'description' 	=> __( 'Aktiviere die Integration von PSForum-Regeln.', 'membership2' ),
+			'name' 			=> __( 'PS Forum Integration', 'membership2' ),
+			'description' 	=> __( 'Aktiviere die Integration von PS Forum-Regeln.', 'membership2' ),
 			'icon' 			=> 'dashicons dashicons-format-chat',
 		);
 
 		if ( ! self::psforum_active() ) {
 			$list[ self::ID ]->description .= sprintf(
 				'<br /><b>%s</b>',
-				__( 'Aktiviere PSForum, um dieses Add-On zu verwenden', 'membership2' )
+				__( 'Aktiviere PS Forum, um dieses Add-On zu verwenden', 'membership2' )
 			);
 			$list[ self::ID ]->action = '-';
 		}
